@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>show greatest number</title>
+        <script type="text/javascript">
+        function displaygreatest()
+       {
+        var a,b;
+            a=parseInt (form1.text1.value);
+            b= parseInt  (form1.text2.value);
+            if(a>b)
+            {
+                document.write("a is greater")
+            }
+            else if(b>a)
+            {
+                document.write("b is greater")
+            }
+            else
+            {
+                document.write("both are equal")
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <form name="form1">
+            enter first number<input type="text" name="text1"><br><br>
+            enter second number<input type="text" name="text2"><br><br>
+            <input type="button" value="display greatest" onclick="displaygreatest()">
+        </form>
+    </body>
+</html>

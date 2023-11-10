@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* css for header */
+.header
+{
+    height:90px;
+    width:100%;
+    background-color: rgb(6, 0, 68);
+    display: flex;
+    justify-content: center;
+}
+.header_container{
+    justify-content: space-between;
+}
+.container{
+    width: 80%;
+    /* background-color: rgb(184, 179, 233); */
+    display: flex;
+
+}
+.logo{
+    height: 90px;
+    width: 15%;
+    /* background-color: black; */
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    line-height: 90px;
+}
+.nav{
+    height: 70px;
+    width: 50%;
+    /* background-color: green; */
+    display: flex;
+}
+.navitem
+{
+    width: 20%;
+    height: 90px;
+    /* background-color: grey; */
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height:70px ;
+    color: white;
+    cursor: pointer;
+}
+.navitem:hover{
+    background-color: white;
+    color: rgb(89, 81, 109);
+}
+
+/* css for banner */
+.banner{
+    height: 700px;
+    width: 100%;
+    /* background-color: rgb(92, 92, 92); */
+    background-image: url(https://images.pexels.com/photos/290595/pexels-photo-290595.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+
+}
+.overlay
+{
+    height: 700px; 
+    width: 100%;
+    background-color: rgba(23, 0, 49, 0.25);
+    display: flex;
+    align-items: center;
+
+}
+.banner_text
+{
+    height: 350px;
+    width:40%;
+    background-color: rgba(16, 0, 54,0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+.padd{
+    padding: 20px;
+    /* background-color: blue; */
+}
+.banner_title
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 80%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(16, 0, 54, 0.7);
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: -2px 2px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold ;
+    cursor: pointer;
+    /* transition: .5s; */
+}
+.btn:hover{
+    background-color: white;
+    color:rgb(16, 0, 54) ;
+}
+
+/* css for services */
+
+.services{
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-color: #8c888f;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: segoe UI;
+}
+
+.services_container{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service{
+    height: 400px;
+    width: 47%;
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.service_img{
+    width: 40%;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    overflow: hidden;
+}
+
+.service_details{
+    width: 60%;
+    height: 400px;
+    background-color: rgba(213, 193, 236, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+.service_padd{
+    padding: 20px;
+}
+
+
+.service_btn{
+
+    /* margin-top: 20px;
+    margin-left: 80%; */
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(16, 0, 54, 0.7);
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: -2px 2px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold ;
+    cursor: pointer;
+    transition: .5s;
+
+}
+.service_btn:hover{
+
+        background-color: white;
+        color:rgb(16, 0, 54) ;
+    }
+
+
+.service_title{
+    margin-bottom: 15px;
+    color:rgb(16, 0, 54);
+}
+
+.service_desc{
+    margin-bottom: 30px;
+}
+
+/* css for footer  */
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer_child{
+    height: 300px;
+    width: 25%;
+    /* background-color: gray; */
+    font-family: segoe UI;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer_child_1{
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+ul {
+    margin-top: 40px;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.first{
+    font-size: 22px;
+}
+
+
+.footer_child_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social_container{
+    width: 60%;
+    justify-content: space-between;
+}   
+
+.social_icon{
+    height: 50px;
+    width: 50px;
+    /* background-color: white; */
+    background-size: cover;
+}
+
+
+.si1{
+    background-image: url('https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-icon-facebook-logo-png-transparent-svg-vector-bie-supply-16.png');
+}
+
+.si2{
+    background-image: url('https://www.edigitalagency.com.au/wp-content/uploads/Instagram-logo-glyph-black-transparent-png.png');
+}
+
+.si3{
+    background-image: url('https://i.pinimg.com/originals/05/da/34/05da3431471058c803afacb2f5483f7b.png');
+}

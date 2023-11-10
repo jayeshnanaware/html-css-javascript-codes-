@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>show greatest number</title>
+        <script type="text/javascript">
+        function displaypositivenegative()
+       {
+        var a,b;
+            a=form1.text1.value;                                                               
+            if(a>0)
+            {
+                document.write("number is positive")
+            }
+            else if(a<0)
+            {
+                document.write("number is negative")
+            }
+            else
+            {
+                document.write("neither positive or negative")
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <form name="form1">
+            enter number<input type="text" name="text1"><br><br>
+            
+            <input type="button" value="show" onclick="displaypositivenegative()">
+        </form>
+    </body>
+</html>
