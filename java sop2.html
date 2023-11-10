@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>sop2 java</title>
+<script type="text/javascript">
+function VE()
+{
+var x=f1.txt_email.value;
+var at_pos=x.indexOf("@");
+var last_pos=x.lastIndexOf("@");
+var firstdot_pos=x.indexOf(".");
+var dot_pos=x.lastIndexOf(".");
+if
+(at_pos<1||dot_pos<at_pos+2||dot_pos+2>=x.lenght||firstdot_pos<at_pos||at_pos<last_pos)
+{
+alert("not anvalid email address");
+f1.txt_email.focus();
+}
+else
+{
+alert("valid  email address");
+return ture;
+}
+}
+</script>
+</head>
+<body>
+<h1> Information form</h1>
+<form name="f1">
+your name<input type="text"name="txt_name">
+<br>
+<br>
+Address<textarea name ="txt_address" placeholder="permanent address"></textarea>
+<br>
+<br>
+contact<input type="tel"name="telephone"maxlenght="10">
+<br>
+<br>
+email<input type="email" name="txt_email" pattern="[A-Z a-z]{0-9}-[@]{1}-[.]{1}">
+<br>
+<br>
+<input type="button" name="button1" value="submit" onClick="VE()">
+</form>
+</body>
+</html>

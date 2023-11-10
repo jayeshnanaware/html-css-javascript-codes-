@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form name="f1">
+enter number<input type="text" name="n1">
+<br>
+<input type="button" name="b1" value="check" onClick="pin()">
+</form>
+<script type="text/javascript">
+function pin()
+{
+var a;
+a=f1.n1.value;
+if(isNaN(a))
+alert("pincode contains characters");
+else
+alert("pincode contains integer");
+}
+</script>
+</body>
+</html>

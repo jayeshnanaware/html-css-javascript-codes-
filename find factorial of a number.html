@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form name="f1">
+enter number
+<input type="number" name="n1"><br>
+<input type="button"name="b1" value="factorial" onMouseover="fact()">
+</form>
+<script type="text/javascript">
+function fact()
+{
+var a,f=1,i;
+a=parseInt(f1.n1.value);
+for(i=a;i>=1;i--)
+{
+f=f*i;
+}
+alert("factorial of number is "+f);
+}
+</script>
+</body>
+</html>

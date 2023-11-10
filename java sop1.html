@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>mouseover</title>
+<script language="JavaScript">
+function f1()
+{ document.bgColor="red";
+window.setTimeout("f2()",1200);
+}
+function f2()
+{ document.bgColor="yellow";
+window.setTimeout("f3()",1200);
+}
+function f3()
+{ document.bgColor="brown";
+window.setTimeout("f4()",1200);
+}
+function f4()
+{ document.bgColor="purple";
+window.setTimeout("f5()",1200);
+}
+function f5()
+{ document.bgColor="orange";
+window.setTimeout("f6()",1200);
+}
+function f6()
+{ document.bgColor="blue";
+window.setTimeout("f7()",1200);
+}
+function f7()
+{ document.bgColor="green";
+window.setTimeout("f1()",1200);
+}
+function msg()
+{
+alert("display of 7 different color");
+}
+</script>
+</head>
+<body>
+<form name="frm1">
+<center>
+<input type="button" name="b1"value="Colors" onMouseOver="f1()"><p>
+<input type="button" name="b2" value="message" onClick="msg()">
+</form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>string</title>
+</head>
+<body>
+<form="frm1">
+<center>
+<h3>count no of vowels</h3>
+Enter your Name<input type="text" name="t1"><br>
+<br>
+<input type="button"name="btncheck"value="count vowels" onClick="cnt()">
+</form>
+<script language="javascript">
+function cnt()
+{
+var s,i,ch,c;
+c=0
+s=frm1.t1.value;
+for(i=0;i<=s.length;i++)
+{
+ch=s.charAt(i);
+if(ch=="A" || ch=="a" || ch=="E" ||ch=="e" || ch=="I" || ch=="i" || ch=="O" || ch=="o" || ch=="U" || ch=="u")
+c++;
+}
+alert("number of vowels in string are:"+c);
+}
+</script>
+</body>
+</html>

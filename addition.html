@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form name="f1">
+Enter the first number:
+<input type="number" name="n1"><br><br>
+Enter the second number:
+<input type="number" name="n2"><br><br>
+<input type="button" name="b1"value="calculate" onClick="chk()">
+</form>
+<script type="text/javascript">
+function chk()
+{
+var a,b,mul,sub,add,div;
+a=parseInt(f1.n1.value);
+b=parseInt(f1.n2.value);
+add=a+b;
+mul=a*b;
+sub=a-b;
+div=a/b;
+alert("addition is"+add);
+alert("multiplication is "+mul);
+alert("substraction is"+sub);
+alert("division is"+div);
+}
+</script>
+</html> 
